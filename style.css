@@ -141,3 +141,17 @@ background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
     display: flex; 
     justify-content: center;
 }
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 2em 20%;
+    border: 1px #3882f6 solid;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+.action-title {
+    font-weight: bolder;
+    font-size: large;
+}

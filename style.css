@@ -23,7 +23,7 @@
 .wrapper {
     max-width: 1178px;
     margin: 0 auto;
-    padding: 5px 16px;
+    padding: 1em 16px;
 }
 .logo  {
     color: #F9FAF8;
@@ -107,6 +107,7 @@ div .image-wrap{
 .card {
     flex: 0 1 24%;
     height: 15em;
+    margin-bottom: 10em 
 }
 .card-image{
 flex-basis: 100%;
@@ -114,10 +115,29 @@ height: 100%;
 border-radius: 15px;
 background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
 }
-.card-text p {
-  
-}
+
 .card-text {
-    
     text-align : center;
+}
+.quote {
+    background-color: #E5E7EB;
+    padding: 5em 0px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    align-self: flex-end;
+    max-width: 50%;
+}
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    max-width: 80%;
+}
+
+.quote-container {
+    display: flex; 
+    justify-content: center;
 }

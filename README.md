@@ -1,3 +1,2 @@
 # landing-page
-Landing Page TOP project
-Flexbox module ending project
+Witcher / fantasy landing page made for The Odin Project as plain html/css exercise.

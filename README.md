@@ -44,7 +44,7 @@ witcher-landing-page/
 ```
 
 ## License
-This project is open source and available under the [MIT]('https://opensource.org/license/mit') License.
+This project is open source and available under the [MIT](https://opensource.org/license/mit) License.
 
 ## Acknowledgments
 This project was created as part of The Odin Project.

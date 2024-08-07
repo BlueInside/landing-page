@@ -1,164 +1,198 @@
 * {
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
 }
+
 .button {
-    width: 10em;
-    height: 5ex;
-    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
+  width: 10em;
+  height: 5ex;
+  background-image: linear-gradient(135deg, #8b0000 40%, #2f2f2f);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-image 0.3s ease-in-out;
 }
- body {
-    box-sizing: border-box; 
+
+.button:hover {
+  background-image: linear-gradient(135deg, #b22222 40%, #3a3a3a);
+}
+
+body {
+  box-sizing: border-box;
 }
 .container-top {
-    background-color: #1F2937;
-    
+  background-color: #1f2937;
 }
 .wrapper {
-    max-width: 1178px;
-    margin: 0 auto;
-    padding: 1em 16px;
+  max-width: 1178px;
+  margin: 0 auto;
+  padding: 1em 16px;
 }
-.logo  {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .navbar {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 li {
-    display: inline-block;
+  display: inline-block;
 }
 ul {
-    display: flex;
-    gap: 10px;
-    
+  display: flex;
+  gap: 10px;
 }
-li a{
-    text-decoration: none;
-    color: white;
-    
+li a {
+  text-decoration: none;
+  color: white;
 }
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5em;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em;
 }
 .hero-text {
-    font-size: 48px;
-    font-weight:bolder;
-    color: #F9FAF8;
-
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
-.hero-subtext{
-    font-size: 18px;
-    color: #F9FAF8;
+.hero-subtext {
+  font-size: 18px;
+  color: #f9faf8;
 }
 
 .fb25 {
-    flex-basis: 25%;
+  flex-basis: 25%;
 }
 .fb50 {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 .image-wrap {
-    background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://i.ibb.co/pxh6PBm/witcher-Hero.webp') center/cover
+    no-repeat;
 }
-div .image-wrap{
-    height: 200px;
-    width: 100%;
+
+div .image-wrap {
+  height: 200px;
+  width: 100%;
 }
 
 .border {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 .title {
-    text-align: center;
-    font-size: 32px;
-    font-weight: bolder;
-    color: #1F2937;
-    padding: 1em 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 1em 0;
 }
 .cards-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-content: center;
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
 }
 .card {
-    flex: 0 1 24%;
-    height: 15em;
-    margin-bottom: 10em 
+  flex: 0 1 24%;
+  height: 15em;
+  margin-bottom: 10em;
 }
-.card-image{
-flex-basis: 100%;
-height: 100%;
-border-radius: 15px;
-background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+.card-image1 {
+  flex-basis: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: url('https://res.cloudinary.com/dhjzutfu9/image/upload/v1723032366/dragonWitcher_wew7jl.webp');
+  background-size: cover;
+  background-position: center;
+}
+.card-image2 {
+  flex-basis: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: url('https://res.cloudinary.com/dhjzutfu9/image/upload/v1723032349/warriorWitcher_a65ubc.webp');
+  background-size: cover;
+  background-position: center;
+}
+.card-image3 {
+  flex-basis: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: url('https://res.cloudinary.com/dhjzutfu9/image/upload/v1723033945/fantasyWorld_cpr6az.webp');
+  background-size: cover;
+  background-position: center;
+}
+.card-image4 {
+  flex-basis: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: url('https://res.cloudinary.com/dhjzutfu9/image/upload/v1723032349/witcher_fgwtke.webp');
+  background-size: cover;
+  background-position: center;
 }
 
 .card-text {
-    text-align : center;
+  text-align: center;
 }
 .quote {
-    background-color: #E5E7EB;
-    padding: 5em 0px;
+  background-color: #e5e7eb;
+  padding: 5em 0px;
 }
 .quote-text {
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-    color: #1F2937;
-    align-self: flex-end;
-    max-width: 50%;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  align-self: flex-end;
+  max-width: 50%;
 }
 .quote-author {
-    font-weight: bold;
-    text-align: end;
-    max-width: 80%;
+  font-weight: bold;
+  text-align: end;
+  max-width: 80%;
 }
 
 .quote-container {
-    display: flex; 
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 .action-box {
-    display: flex;
-    justify-content: space-between;
-    background-color: #3882F6;
-    margin: 2em 20%;
-    border: 1px #3882f6 solid;
-    color: white;
-    border-radius: 10px;
-    padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f2f2f;
+  margin: 2em 20%;
+  border: 1px #8b0000 solid;
+  color: #d4af37;
+  border-radius: 10px;
+  padding: 40px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
+
+.action-box:hover {
+  background-color: #3a3a3a;
+  border-color: #b22222;
+}
+
 .action-title {
-    font-weight: bolder;
-    font-size: large;
+  font-weight: bolder;
+  font-size: large;
 }
-.footer-container{
-    display: flex;
-    justify-content: center;
-    background-color: #1F2937;
-    padding: 25px;
-    color: white;
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 25px;
+  color: white;
 }
